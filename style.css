@@ -6,12 +6,12 @@ body{
     color: green;
     text-align: center;
 }
-.parent{
+.head-section-parent{
     display: flex;
     width: 80%;
     margin: 0 auto;
 }
-.photo img {
+.map-photo img {
     width: 250px;
 }
 .details-btn{
@@ -25,3 +25,48 @@ body{
     color: white;
     cursor: pointer;
 }
+.divisions{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    
+}
+.all-divisions{
+    display: flex;
+    justify-content: space-around;
+}
+.division-item{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px gray;
+
+}
+.div-photo img{
+    width: 100%;
+}
+.text-section{
+    padding: 10px;
+}
+.more-btn{
+    padding: 10px 30px;
+    border: none;
+    background-color: aqua;
+    font: 16px;
+    border-radius: 5px;
+    font: 16px;
+    
+}
+.more-btn:hover{
+    background-image: linear-gradient(45deg,green, red, green);
+    columns: white;
+}
+.description{
+    text-align: justify;
+}
+.footer-content {
+    margin-top: 50px;
+  }
+.footer-content {
+    text-align: center;
+  }
